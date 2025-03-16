@@ -18,12 +18,18 @@ venv\Scripts\activate     # For Windows
 pip install django
 ```
 
-### 3️⃣ Run Initial Migrations
+### 3️⃣ Create Django Project & Start App
+```bash
+django-admin startproject project .
+python manage.py startapp home
+```
+
+### 4️⃣ Run Initial Migrations
 ```bash
 python manage.py migrate
 ```
 
-### 4️⃣ Start the Development Server
+### Start the Development Server
 ```bash
 python manage.py runserver
 ```
