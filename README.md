@@ -97,8 +97,8 @@ from django.conf.urls.static import static
 from django.contrib.auth import views as auth_views
 # from exam import views as auth_view
 admin.site.site_header = 'Dashboard'                    # default: "Django Administration"
-admin.site.index_title = 'Admin Panel'                 # default: "Site administration"
-admin.site.site_title = 'Corunit Admin Panel' # default: "Django site admin"
+admin.site.index_title = 'Admin Panel'                   # default: "Site administration"
+admin.site.site_title = 'Sajid Admin Panel'               # default: "Django site admin"
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
